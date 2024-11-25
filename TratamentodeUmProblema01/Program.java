@@ -34,9 +34,10 @@ public class Program {
             checkIn = sdf.parse(sc.next());
             System.out.print("Check-out date (dd/MM/yyyy): ");
             checkOut = sdf.parse(sc.next());
-
             Date now = new Date();
 
+            System.out.println("fala ai");
             sc.close();
         }
-    }}
+    }
+}
